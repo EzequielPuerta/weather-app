@@ -1,12 +1,11 @@
 <script lang="ts">
-    import { base } from '$app/paths';
     const DEFAULT_CITY = 'Boedo';
     const DEFAULT_TEMPERATURE_UNIT = 'C';
     let city = DEFAULT_CITY;
     let temperatureUnit = DEFAULT_TEMPERATURE_UNIT;
 
     async function fetchWeather(city: string = DEFAULT_CITY) {
-        return await fetch(`${base}/api/weather?q=${city}`).then(response => response.json());
+        return await fetch(`/api/weather?q=${city}`).then(response => response.json());
     }
 
     function handleKeyPress(event: KeyboardEvent) {
