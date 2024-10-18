@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Panel from '../components/panel.svelte';
+</script>
+
+<style>
+    :global(body) {
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+        background-color: #424242;
+    }
+</style>
+
+<Panel />
