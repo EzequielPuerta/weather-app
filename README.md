@@ -7,6 +7,10 @@ RAPID_API_KEY=
 RAPID_API_HOST=
 ```
 
+## Live
+
+- [https://weather-app-apuerta.vercel.app](https://weather-app-apuerta.vercel.app)
+
 ## Features
 
 - Day/Night theme
